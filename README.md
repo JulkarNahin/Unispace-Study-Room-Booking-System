@@ -38,16 +38,15 @@ npm run serve
 •	Import database/unispace.sql into MySQL.
 •	Update config.php with your DB credentials.
 ```
+---
 
 ## 🛠 Requirements
-```
-•	Node.js + npm
-•	PHP 7+
-•	MySQL
-•	Vue.js + Pinia
-```
+-	Node.js + npm
+-	PHP 7+
+-	MySQL
+-	Vue.js + Pinia
 
 ## 👤 Author
-```
 Julkar Nahin Second Year B.Sc. (Software Engineering With Honours), Universiti Teknologi Malaysia
-```
+
+---
