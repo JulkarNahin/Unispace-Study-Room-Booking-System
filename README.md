@@ -25,11 +25,10 @@ UniSpace/
 
  ▶️ How to Run
 
-### Frontend
-```bash
 cd frontend
 npm install
 npm run serve
+
 
 Backend
 •	Place backend-php/ in a PHP server (e.g., Laragon, XAMPP).
