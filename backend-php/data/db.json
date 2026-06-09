@@ -1,0 +1,137 @@
+{
+    "rooms": [
+        {
+            "id": "room-001",
+            "name": "Silent Study Room",
+            "location": "Main Library - Floor 2",
+            "capacity": 4,
+            "features": [
+                "Wi-Fi",
+                "Power Outlets",
+                "Individual Desks",
+                "Soundproof"
+            ],
+            "active": true,
+            "createdAt": "2026-05-01T09:00:00+08:00",
+            "updatedAt": "2026-05-01T09:00:00+08:00",
+            "imageUrl": "/images/picture1.jpg"
+        },
+        {
+            "id": "room-002",
+            "name": "Group Discussion Room",
+            "location": "Main Library - Floor 3",
+            "capacity": 8,
+            "features": [
+                "Whiteboard",
+                "Projector",
+                "Round Table",
+                "Power Outlets"
+            ],
+            "active": true,
+            "createdAt": "2026-05-01T09:05:00+08:00",
+            "updatedAt": "2026-05-01T09:05:00+08:00",
+            "imageUrl": "/images/picture2.jpg"
+        },
+        {
+            "id": "room-003",
+            "name": "Smart Study Room",
+            "location": "Tech Building - Floor 1",
+            "capacity": 6,
+            "features": [
+                "Smart Board",
+                "Video Conferencing",
+                "Power Outlets"
+            ],
+            "active": true,
+            "createdAt": "2026-05-01T09:10:00+08:00",
+            "updatedAt": "2026-05-01T09:10:00+08:00",
+            "imageUrl": "/images/picture3.jpg"
+        },
+        {
+            "id": "room-004",
+            "name": "Collaboration Hub",
+            "location": "Admin Building - Floor 4",
+            "capacity": 10,
+            "features": [
+                "Large Table",
+                "Whiteboard",
+                "Projector"
+            ],
+            "active": true,
+            "createdAt": "2026-05-01T09:15:00+08:00",
+            "updatedAt": "2026-05-01T09:15:00+08:00",
+            "imageUrl": "/images/picture4.jpg"
+        },
+        {
+            "id": "room-005",
+            "name": "Meeting Room A",
+            "location": "Main Library - Floor 1",
+            "capacity": 12,
+            "features": [
+                "Conference Table",
+                "Projector",
+                "Wi-Fi"
+            ],
+            "active": true,
+            "createdAt": "2026-05-01T09:20:00+08:00",
+            "updatedAt": "2026-05-01T09:20:00+08:00",
+            "imageUrl": "/images/picture5.jpg"
+        },
+        {
+            "id": "room-006",
+            "name": "Quiet Reading Room",
+            "location": "Main Library - Floor 4",
+            "capacity": 5,
+            "features": [
+                "Silent Zone",
+                "Individual Desks",
+                "Reading Lamps"
+            ],
+            "active": true,
+            "createdAt": "2026-05-01T09:25:00+08:00",
+            "updatedAt": "2026-05-01T09:25:00+08:00",
+            "imageUrl": "/images/picture6.jpg"
+        }
+    ],
+    "bookings": [
+        {
+            "id": "booking-8e99f2de",
+            "roomId": "room-002",
+            "userName": "Ahmad Razak",
+            "userRole": "student",
+            "date": "2026-05-28",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "purpose": "Study session",
+            "status": "approved",
+            "createdAt": "2026-05-28T20:26:59+08:00",
+            "updatedAt": "2026-05-28T20:27:12+08:00"
+        },
+        {
+            "id": "booking-9e51e206",
+            "roomId": "room-004",
+            "userName": "Ahmad Razak",
+            "userRole": "student",
+            "date": "2026-05-28",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "purpose": "Study session",
+            "status": "cancelled",
+            "createdAt": "2026-05-28T20:26:02+08:00",
+            "updatedAt": "2026-05-28T20:26:38+08:00"
+        },
+        {
+            "id": "booking-c636b5f6",
+            "roomId": "room-001",
+            "userName": "Ahmad Razak",
+            "userRole": "student",
+            "date": "2026-05-28",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "purpose": "Study session",
+            "status": "cancelled",
+            "createdAt": "2026-05-28T20:20:06+08:00",
+            "updatedAt": "2026-05-28T20:21:26+08:00"
+        }
+    ]
+}
