@@ -1,4 +1,4 @@
- UniSpace – University Study Room Booking System 📚
+UniSpace – University Study Room Booking System 📚
 
 A full‑stack web application built with **Vue.js, Pinia, PHP, and MySQL**.  
 Designed to streamline study room reservations for students and administrators at UTM.
@@ -15,31 +15,38 @@ Designed to streamline study room reservations for students and administrators a
 ---
 
 📂 Project Structure
+```
 UniSpace/
  ├── frontend/   # Vue.js + Pinia  
  ├── backend-php # PHP API  
  ├── database/   # MySQL schema & ERD  
  └── docs/       # Architecture diagrams, wireframes  
-
+```
 ---
 
  ▶️ How to Run
-
+```
 cd frontend
 npm install
 npm run serve
-
+```
 
 Backend
+```
 •	Place backend-php/ in a PHP server (e.g., Laragon, XAMPP).
 •	Import database/unispace.sql into MySQL.
 •	Update config.php with your DB credentials.
+```
 
 🛠 Requirements
+```
 •	Node.js + npm
 •	PHP 7+
 •	MySQL
 •	Vue.js + Pinia
+```
 
 👤 Author
+```
 Julkar Nahin Second Year B.Sc. (Software Engineering With Honours), Universiti Teknologi Malaysia
+```
